@@ -59,7 +59,7 @@ body {
 
 .logo-title {
   font-weight: 800;
-  font-size: 1.6rem; /* bigger */
+  font-size: 1.9rem; /* bigger */
 }
 
 /* subtitle removed */
@@ -131,7 +131,7 @@ body {
   border-radius: 999px;
   padding: 0.9rem 1.7rem;
   font-weight: 600;
-  font-size: 1.02rem;
+  font-size: 1.18rem; /* bigger button text */
   text-decoration: none;
 }
 
@@ -228,8 +228,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.45rem;
-  padding: 1.2rem 1rem 1.4rem;
+  gap: 0.55rem; /* slightly more gap */
+  padding: 1.6rem 1.2rem 1.7rem; /* more padding to fill box */
   border-radius: 1.4rem;
   background: white;
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
@@ -240,19 +240,19 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 52px;
+  height: 52px;
   border-radius: 999px;
   background: linear-gradient(to bottom right, #38bdf8, #6366f1);
   color: white;
   font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 0.2rem;
+  font-size: 1.35rem;
+  margin-bottom: 0.3rem;
 }
 
 .step-title {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #111827;
 }
 
