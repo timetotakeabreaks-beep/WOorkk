@@ -7,7 +7,14 @@ export default function Home() {
     <main className="page">
       <div className="page-inner">
         {/* NAVBAR */}
-        <header className="nav">
+        <header
+          className="nav"
+          style={{
+            borderBottom: "1px solid #e5e7eb",
+            paddingBottom: "12px",
+            marginBottom: "20px",
+          }}
+        >
           <div className="nav-left">
             <div className="logo-wrap">
               <Image
@@ -19,7 +26,6 @@ export default function Home() {
               />
               <div className="logo-text">
                 <span className="logo-title">SixtyScan</span>
-                {/* subtitle removed per request */}
               </div>
             </div>
           </div>
@@ -29,6 +35,7 @@ export default function Home() {
             <Link href="/contact">ติดต่อเรา</Link>
           </nav>
         </header>
+
 
         {/* HERO */}
         <section className="hero">
